@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/reverse-linked-list/description/
 # 206. Reverse Linked List
 
-def reverse_list(head):
+def reverseList(head):
         prev = None
         curr = head
         while curr:

@@ -24,7 +24,7 @@
 
 from collections import deque
 
-def shortest_path(grid, k):
+def shortestPath(grid, k):
     num_rows = len(grid)
     num_cols = len(grid[0])
 

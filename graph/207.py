@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/course-schedule/submissions/
+# 207. Course Schedule
+
 # Idea:
 # - since prereq has to come before main course, it is a DAG
 # - problem can be reduced to -> detecting cycles
@@ -28,6 +31,7 @@
 # - if any descendant is being visited, cycle exists
 # - update current node to visited after exploring all descendants
 # - check if cycle exists starting every node.
+
 
 # Topological sorting
 from collections import deque

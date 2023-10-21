@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 # 1293. Shortest Path in a Grid with Obstacles Elimination
 
-# Intuition:
+# Idea:
 # - finding shortest path -> use BFS
 # - if there are multiple paths to the same cell, use path with higher k value, 
 #   and to do that, k must be tracked.

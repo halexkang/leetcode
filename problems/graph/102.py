@@ -14,8 +14,7 @@ def levelOrder(root):
     queue.append(root)
     while len(queue):
         tmp = []
-        l = len(queue)
-        for i in range(l):
+        for _ in range(len(queue)):
             node = queue.popleft()
             if not node:
                 continue
